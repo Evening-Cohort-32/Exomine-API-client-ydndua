@@ -1,0 +1,33 @@
+.top-row {
+    display: flex;
+}
+
+.colony-display {
+    align-self: right;
+}
+
+.bottom-row {
+    display: flex;
+}
+
+.minerals-display {
+    min-width: 75%;
+    border: 1px purple dashed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    margin: .5rem;
+    
+}
+
+.cart-display {
+    border: 1px blue dashed;
+    padding: 2rem;
+    margin: .5rem;
+    
+}
+
+#submit-button {
+    padding: .25rem .5rem;
+}
